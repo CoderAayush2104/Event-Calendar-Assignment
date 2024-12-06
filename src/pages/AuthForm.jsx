@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../styles/AuthForm.css";
+import "../styles/authForm.css";
 import Email from "../assets/email.svg";
 import Password from "../assets/password.svg";
 
