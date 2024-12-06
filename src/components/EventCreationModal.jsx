@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import "../styles/eventModal.css"
-import "../styles/Calendar.css";
+
 
 const EventCreationModal = ({ 
   isOpen, 

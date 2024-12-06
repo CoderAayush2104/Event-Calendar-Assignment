@@ -7,6 +7,7 @@ import EventCreationModal from "../components/EventCreationModal";
 import EventDetailsModal from "../components/EventDetailsModal";
 import axios from "axios";
 import Loader from "../components/Loader";
+import "../styles/calendar.css";
 
 const Calendar = () => {
   const [events, setEvents] = useState([]);
