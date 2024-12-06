@@ -16,7 +16,7 @@ const AuthForm = () => {
   const isSignup = location.pathname === "/signup";
 
   const baseUrl = import.meta.env.VITE_APP_BASE_URL;
-
+  console.log(baseUrl);
   const validate = () => {
     const newErrors = {};
     if (!username) {
