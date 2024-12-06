@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/Sidebar.css";
+import "../styles/sidebar.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Logo from "../assets/logo.svg";
 const Sidebar = () => {
